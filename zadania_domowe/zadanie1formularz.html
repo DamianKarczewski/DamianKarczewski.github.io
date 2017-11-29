@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="https://formspree.io/malibu193@wp.pl" 
+    method="post">
+    
+    <p>Formularz zgłoszeniowy</p><br />
+    <label for="imie">Imię:</label><br />
+    <input type="text" id="imie">
+    <br />
+    
+    <label for="nazwisko">Nazwisko:</label><br />
+    <input type="text" id="nazwisko">
+    <br />
+    
+    <label form="email">E-mail:</label><br />
+    <input type="email" name= "email">
+    <br />
+    
+    <label for="numer telefonu">Numer telefonu:</label><br />
+    <input type="tel" id="numer telefonu">
+    <br />
+    
+    <p>Wybierz miasto:</p>
+     <form action="miasto">
+	   <select name="nazwa">
+		<option selected="selected">Kraków</option>
+		<option>Warszawa</option>
+		<option>Gdańsk</option>
+	  </select>
+    </form>
+  
+   
+   <p>Płeć:</p>
+    <input type="radio" name="Płeć" value="Kobieta" />Kobieta
+    <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+   <br />
+    
+    <form action="zgoda">
+	  <input type="checkbox" name="nazwa" value="Wyrażam zgodę na wykorzystanie danych osobowych" />Wyrażam zgodę na wykorzystanie danych osobowych
+    </form>
+    <br/>    
+    
+    <label for="wiadomość">Wiadomość:</label><br />
+    <textarea name="wiadomość" id= "wiadomość" cols ="40" rows= "10"
+        maxlength="100"></textarea>
+    <br />
+   
+    
+    <input type="submit" value="Wyślij">
+    
+
+  </form>
+    
+</body>
+</html>
