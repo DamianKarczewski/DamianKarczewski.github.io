@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#container {
+    position: relative;
+}
+
+.image {
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 992px) {
+    h1,
+    h2 {
+        color: black;
+        text-align: center;
+    }
+
+    .image {
+        height: 50vh;
+        background-image: url(man-1.jpg);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1170px) {
+
+    .image {
+        background-image: url(man-2.jpg);
+        height: 70vh;
+    }
+
+    .title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 35px 20px 0 0;
+    }
+}
+
+@media (min-width:1170px) {
+
+    .image {
+        background-image: url(man-1.jpg);
+        height: 100vh;
+    }
+
+    .title {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        padding: 35px 0 0 25px;
+    }
+}
