@@ -1,0 +1,34 @@
+    @media (max-width: 992px) {
+
+        .image {
+            height: 50vh;
+        }
+
+        h1,
+        h2 {
+            color: black;
+        }
+
+        .title {
+            transform: none;
+            top: 300px;
+            text-align: center;
+            padding: 0 15% 0 15%;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1170px) {
+
+        .image {
+            background-image: url(man-2.jpg);
+            height: 70vh;
+        }
+
+        .title {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 220px 20px 0 0;
+            text-align: right;
+        }
+    }
